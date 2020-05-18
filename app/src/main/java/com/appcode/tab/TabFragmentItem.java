@@ -1,10 +1,17 @@
-package com.appcode;
+package com.appcode.tab;
 
 import android.support.v4.app.Fragment;
 
 public class TabFragmentItem {
+
+	private int id;
 	private String title;
 	private Fragment fragment;
+
+	public TabFragmentItem(int id, Fragment fragment) {
+		this.id = id;
+		this.fragment = fragment;
+	}
 
 	public TabFragmentItem(String title, Fragment fragment) {
 		this.title = title;

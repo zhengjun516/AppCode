@@ -4,6 +4,7 @@ import android.app.Application;
 import android.content.Context;
 import android.content.res.Configuration;
 
+import com.appcode.download.DownLoadManager;
 import com.qihoo360.replugin.RePlugin;
 import com.qihoo360.replugin.RePluginConfig;
 
@@ -12,7 +13,10 @@ public class AppCode extends Application {
 	protected void attachBaseContext(Context base) {
 		super.attachBaseContext(base);
 		RePluginConfig rePluginConfig = new RePluginConfig();
+		//rePluginConfig.setVerifySign(false);
+		rePluginConfig.setPrintDetailLog(true);
 		rePluginConfig.setVerifySign(!BuildConfig.DEBUG);
+		RePlugin.addCertSignature("D5128FCF530BDA9CC42FF637FD581D90");
 		RePlugin.App.attachBaseContext(this,rePluginConfig);
 	}
 
@@ -20,6 +24,7 @@ public class AppCode extends Application {
 	public void onCreate() {
 		super.onCreate();
 		RePlugin.App.onCreate();
+		DownLoadManager.init(this);
 	}
 
 	@Override

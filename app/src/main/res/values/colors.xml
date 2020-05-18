@@ -6,4 +6,16 @@
 
     <color name="dividingLineColor">#3348e4</color>
     <color name="toolBarColor">#00574B</color>
+
+
+    <color name="tag1">#ef5350</color>
+    <color name="tag2">#ab47bc</color>
+    <color name="tag3">#5c6bc0</color>
+    <color name="tag4">#29b6f6</color>
+    <color name="tag5">#26c6da</color>
+    <color name="tag6">#66bb6a</color>
+    <color name="tag7">#ffca28</color>
+    <color name="tag8">#ff7043</color>
+    <color name="tag9">#8d6e63</color>
+    <color name="tag10">#d4e157</color>
 </resources>

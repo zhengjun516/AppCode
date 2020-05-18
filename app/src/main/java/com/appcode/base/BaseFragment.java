@@ -1,4 +1,4 @@
-package com.appcode;
+package com.appcode.base;
 
 import android.support.v4.app.Fragment;
 
