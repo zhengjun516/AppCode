@@ -1,9 +1,10 @@
 package com.appcode.code.viewholder;
 
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
 import android.view.ViewGroup;
 import android.widget.TextView;
+
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.appcode.R;
 import com.appcode.base.BaseViewHolder;

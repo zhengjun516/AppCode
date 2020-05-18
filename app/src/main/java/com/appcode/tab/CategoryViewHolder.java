@@ -1,10 +1,10 @@
 package com.appcode.tab;
 
-import android.support.v7.widget.CardView;
-import android.support.v7.widget.GridLayoutManager;
-import android.support.v7.widget.RecyclerView;
 import android.view.ViewGroup;
 import android.widget.TextView;
+
+import androidx.cardview.widget.CardView;
+
 import com.appcode.R;
 import com.appcode.base.BaseViewHolder;
 import com.appcode.model.Category;

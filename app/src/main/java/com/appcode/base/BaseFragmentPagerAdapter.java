@@ -1,8 +1,9 @@
 package com.appcode.base;
 
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentStatePagerAdapter;
+
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentStatePagerAdapter;
 
 import com.appcode.tab.TabFragmentItem;
 
@@ -42,7 +43,7 @@ public class BaseFragmentPagerAdapter extends FragmentStatePagerAdapter {
         return 0;
     }
 
-    public Object addFragment(String title,Fragment fragment) {
+    public Object addFragment(String title, Fragment fragment) {
         if (mFragmentItems == null) {
             mFragmentItems = new ArrayList<TabFragmentItem>();
         }
